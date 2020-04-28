@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="css\menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>PEOPLE'S  CHOICE RESTAURANT</title>
+</head>
+<body bgcolor="navyblue">
+    <header>
+    <div class='main'>
+        <div class='logo'>
+            <img src="images\logo.jpg">
+        </div>
+    
+        <ul>
+            <li class='active'><a href='#'><i class="fa fa-fw fa-home" aria-hidden="true"></i>HOME</a></li>
+            <li><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i>GALLERY</a></li>
+            <li><a href="aboutus.html"><i class="fa fa-info" aria-hidden="true"></i>ABOUT US</a></li>
+            <li class="active"><i class="fa fa-fw fa-search" aria-hidden="true"></i></li>
+            <li><a href="contact.html"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i>CONTACT</a></li>
+        </ul>
+    </div>
+    <div class='title'>
+        <h1>PEOPLE'S CHOICE</h1>
+    </div>
+    <div class='button'>
+        <a href="orderonline.html" class="btn button1">ORDER ONLINE</a>
+        <a href="login.html" class="btn button2"><i class="fa fa-fw fa-user"></i>LOGIN/SIGN UP</a>
+    </div>
+    <div class="menucontainer" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+            <input type="button" value="SEARCH">
+         </div>
+    </header>
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        $(document).ready(function(){
+            $(".active").click(function(){
+                $(".search-box").toggle();
+                $("input[type='text']").focus();
+            });
+        });
+    </script>
+    
+</body>
+</html>

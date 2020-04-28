@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding:15px;
+    padding-bottom:30px;
+    background-color: tomato;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .blockimage {
+    padding-top: 102px;
+  }
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:whitesmoke;
+    overflow-x: hidden;
+    margin-top:110px;
+}
+.sidenav h3{
+    color:black;
+    padding:10px;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-bottom: 1px solid black;
+    text-align:center;
+}
+.sidenav .filter{
+    color:black;
+    text-decoration: none;
+    text-transform:uppercase;
+    border-bottom: 1px solid black;
+    text-align:center;
+} 
+.sidenav .filter h4{
+    padding:20px;
+}
+.blockimage{
+    display:inline-block;
+    padding:10px;
+    margin-left: 200px;
+    padding-left: 20px;
+}
+.block{
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black transparent;
+    margin-left:10PX;
+    height: auto;
+    background-color:whitesmoke;
+    display:inline-block;
+    border-radius:50%;
+}
+.block .image{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.block .image img{
+    width:100%;
+    border-radius:50%;
+}
+
+.block .image .details{
+    box-sizing:border-box;
+    font-size:20px;
+    padding:20px;
+}
+.block .details h3{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    text-align:center;
+    line-height:20px;
+    color: #ff2266;
+    text-transform: uppercase;
+}

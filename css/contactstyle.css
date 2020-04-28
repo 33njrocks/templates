@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-style:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-section{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(../images/malvy-s-shakes.jpg);
+    padding:0px;
+    background-size: contain;
+    background-position:center;
+    height:100vh;
+}
+.contact-section h1{
+    text-align:right;
+    color:white;
+    padding:20px;
+    margin-right:360px;
+}
+.border{
+    width:500px;
+    height:10px;
+    background: #383838;
+    margin-top:30px;
+    margin-left:650px;
+}
+.contact-form{
+    max-width:600px;
+    margin:auto;
+    padding:0 10px;
+    overflow:hidden;
+    margin-left:600px;
+}
+.contact-form-text{
+    display:block;
+    width:100%;
+    box-sizing: border-box;
+    margin-top:50px;
+    border:0;
+    background: #333333;
+    padding:20px 40px;
+    outline:none;
+    color:white;
+    transition:0.5s ease;
+}
+.contact-form-text:focus{
+    box-shadow:0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+    resize:none;
+    height:120px;
+    color:white;
+}
+.contact-form-btn{
+    float:right;
+    border:0;
+    color:#34495e;
+    padding:12px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.5s ease;
+    text-align:center;
+    font-weight:bolder;
+    margin-top:50px;
+}
+.contact-form-btn:hover{
+    background: #229988;
+}
+ul li{
+    color:white;
+    display:inline-block;
+    text-align:center;
+    position: absolute;
+}
+.location{
+    margin-left:200px;
+    padding:20px;
+}
+.Phone{
+    margin-left:250px;
+    padding:20px;
+    margin-top:300px;
+}
+.content1{
+    margin-left:180px;
+    font-size:20px;
+}
+.content2{
+    margin-left:250px;
+    font-size:20px;
+}

@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(../images/image.webp);
+    background-size:contain;
+    background-position:center;
+    height:100vh;
+    border-radius:50%;
+}
+ul{
+    float: right;
+    list-style-type:None;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:25px;
+    
+}
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration: None;
+    color:red;
+    padding:25px;
+    border:1px solid transparent;
+    transition:0.5s ease;
+}
+ul li i{
+    padding:15px;
+    color:red;
+}
+ul li a:hover{
+    background-color:greenyellow;
+    color:red;
+    border-radius: 30px;
+}
+ul li.active a{
+    background-color:greenyellow;
+    color:red;
+    border-radius:30px;
+}
+ul li.active i:hover{
+    background-color:greenyellow;
+    color:red;
+    border-radius: 30px;
+}
+
+.logo img{
+    float:left;
+    width:150px;
+    height:auto;
+}
+.main{
+    max-width:1300px;
+}
+.title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.title h1{
+    font-size:70px;
+    color:whitesmoke;
+}
+.button{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.btn{
+    border:2px solid white transparent;
+    padding:20px;
+    color:white;
+    text-decoration:None;
+    transition:0.6s ease;
+    font-weight:bold;
+    font-size:20px;
+}
+.button1 {border-radius: 20px;}
+.button2 {border-radius: 20px;}
+.btn:hover{
+    background-color:greenyellow;
+    color:red;
+}
+.search-box{
+    background: #eeeeee;
+    position:absolute;
+    top:75px;
+    right:18%;
+    width:350px;
+    height:60px;
+    line-height:60px;
+    box-shadow:0 0 0 5px rgba(0, 0, 0, 0.6);
+    border:4px solid #dd8800;
+    display:none;
+}
+.search-box:before{
+    content:"";
+    position:absolute;
+    top:-32px;
+    right:13px;
+    border:12px solid #dd8800 transparent;
+}
+.search-box input[type="text"]{
+    width:200px;
+    padding:5px 10px;
+    margin-left:23px;
+    border:1px solid #dd8800;
+    outline:none;
+}
+.search-box input[type="button"]{
+    width:80px;
+    padding:5px 0;
+    background:#dd8800;
+    border:1px solid #dd8800;
+    outline:none;
+    cursor:pointer;
+    color:#fff;
+    margin-left:-6px;
+}
+
+
+  
